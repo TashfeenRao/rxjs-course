@@ -10,8 +10,10 @@ const observable$ = new Observable<string>((subscriber) => {
   }, 4000);
 });
 
-const subscription = observable$.subscribe((value) => console.log(value));
+console.log("subscription 1 has started");
+observable$.subscribe((value) => console.log("subscription: 1", value));
+
 setTimeout(() => {
-  subscription.unsubscribe();
-  console.log("unsubscribed");
-}, 3000);
+  console.log("subscription 2 has started");
+  observable$.subscribe((value) => console.log("subscription: 2", value));
+}, 0);

@@ -10,9 +10,10 @@ define("lession1", ["require", "exports", "rxjs"], function (require, exports, r
             subscriber.next("Rao");
         }, 4000);
     });
-    var subscription = observable$.subscribe(function (value) { return console.log(value); });
+    console.log("subscription 1 has started");
+    observable$.subscribe(function (value) { return console.log("subscription: 1", value); });
     setTimeout(function () {
-        subscription.unsubscribe();
-        console.log("unsubscribed");
-    }, 3000);
+        console.log("subscription 2 has started");
+        observable$.subscribe(function (value) { return console.log("subscription: 2", value); });
+    }, 0);
 });
