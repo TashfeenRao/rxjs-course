@@ -17,3 +17,8 @@ setTimeout(() => {
   console.log("subscription 2 has started");
   observable$.subscribe((value) => console.log("subscription: 2", value));
 }, 0);
+
+setTimeout(() => {
+  console.log("subscription 3 has started");
+  observable$.subscribe((value) => console.log("subscription: 3", value));
+}, 0);

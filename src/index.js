@@ -16,4 +16,8 @@ define("lession1", ["require", "exports", "rxjs"], function (require, exports, r
         console.log("subscription 2 has started");
         observable$.subscribe(function (value) { return console.log("subscription: 2", value); });
     }, 0);
+    setTimeout(function () {
+        console.log("subscription 3 has started");
+        observable$.subscribe(function (value) { return console.log("subscription: 3", value); });
+    }, 0);
 });
