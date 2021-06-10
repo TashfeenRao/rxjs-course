@@ -7,7 +7,7 @@ const onservable$ = new Observable<string>((subscriber) => {
 
   setTimeout(() => {
     subscriber.next("Is learning the rxjs");
-    subscriber.error(new Error("fail to execute"));
+    subscriber.error(new Error("fail to execute")); // it finish the observable next event emiting it goes to tear down logic
   }, 1000);
   setTimeout(() => {
     subscriber.next("I am enjoying to learn");

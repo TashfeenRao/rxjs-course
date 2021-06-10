@@ -1,27 +1,25 @@
-define("lesson2", ["require", "exports", "rxjs"], function (require, exports, rxjs_1) {
+define("excersise1", ["require", "exports", "rxjs"], function (require, exports, rxjs_1) {
     "use strict";
     exports.__esModule = true;
-    var onservable$ = new rxjs_1.Observable(function (subscriber) {
-        console.log("observable is executed");
-        subscriber.next("Tahfeen");
-        subscriber.next("Rao");
-        setTimeout(function () {
-            subscriber.next("Is learning the rxjs");
-            subscriber.error(new Error("fail to execute"));
+    var observable$ = new rxjs_1.Observable(function (subscriber) {
+        var timeout = 0;
+        console.log("observable executed");
+        var intervelId = setInterval(function () {
+            console.log("emmited value", timeout);
+            subscriber.next(timeout++);
         }, 1000);
-        setTimeout(function () {
-            subscriber.next("I am enjoying to learn");
-            subscriber.complete();
-        }, 3000);
         return function () {
-            console.log("teardown logic has run");
+            console.log("tear down logic");
+            clearInterval(intervelId);
         };
     });
-    console.log("before subscription");
-    onservable$.subscribe({
+    var subscription = observable$.subscribe({
         next: function (value) { return console.log(value); },
-        complete: function () { return console.log("observable has finished"); },
-        error: function (err) { return console.error(err.message); }
+        error: function (err) { return console.error(err.message); },
+        complete: function () { return console.log("completed"); }
     });
-    console.log("After subscription");
+    setTimeout(function () {
+        subscription.unsubscribe();
+        console.log("Unsubscribed");
+    }, 7000);
 });
