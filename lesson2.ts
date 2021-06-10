@@ -7,6 +7,7 @@ const onservable$ = new Observable<string>((subscriber) => {
 
   setTimeout(() => {
     subscriber.next("Is learning the rxjs");
+    subscriber.error(new Error("fail to execute"));
   }, 1000);
   setTimeout(() => {
     subscriber.next("I am enjoying to learn");
@@ -24,5 +25,6 @@ console.log("before subscription");
 onservable$.subscribe({
   next: (value) => console.log(value),
   complete: () => console.log("observable has finished"),
+  error: (err) => console.error(err.message),
 });
 console.log("After subscription");

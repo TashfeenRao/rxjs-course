@@ -7,6 +7,7 @@ define("lesson2", ["require", "exports", "rxjs"], function (require, exports, rx
         subscriber.next("Rao");
         setTimeout(function () {
             subscriber.next("Is learning the rxjs");
+            subscriber.error(new Error("fail to execute"));
         }, 1000);
         setTimeout(function () {
             subscriber.next("I am enjoying to learn");
@@ -19,7 +20,8 @@ define("lesson2", ["require", "exports", "rxjs"], function (require, exports, rx
     console.log("before subscription");
     onservable$.subscribe({
         next: function (value) { return console.log(value); },
-        complete: function () { return console.log("observable has finished"); }
+        complete: function () { return console.log("observable has finished"); },
+        error: function (err) { return console.error(err.message); }
     });
     console.log("After subscription");
 });
