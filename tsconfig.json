@@ -7,6 +7,6 @@
     "moduleResolution": "node",
     "outFile": "src/index.js"
   },
-  "include": ["src/**/*", "excersise1.ts"],
+  "include": ["src/**/*", "lesson3.ts"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }

@@ -1,25 +1,21 @@
-define("excersise1", ["require", "exports", "rxjs"], function (require, exports, rxjs_1) {
+define("lesson3", ["require", "exports", "rxjs"], function (require, exports, rxjs_1) {
     "use strict";
     exports.__esModule = true;
-    var observable$ = new rxjs_1.Observable(function (subscriber) {
-        var timeout = 0;
-        console.log("observable executed");
-        var intervelId = setInterval(function () {
-            console.log("emmited value", timeout);
-            subscriber.next(timeout++);
-        }, 1000);
-        return function () {
-            console.log("tear down logic");
-            clearInterval(intervelId);
-        };
-    });
-    var subscription = observable$.subscribe({
+    function ourOf() {
+        var args = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            args[_i] = arguments[_i];
+        }
+        return new rxjs_1.Observable(function (subscriber) {
+            for (var _i = 0, args_1 = args; _i < args_1.length; _i++) {
+                var iterator = args_1[_i];
+                subscriber.next(iterator);
+            }
+            subscriber.complete();
+        });
+    }
+    ourOf("hiii", "hello", "bye").subscribe({
         next: function (value) { return console.log(value); },
-        error: function (err) { return console.error(err.message); },
         complete: function () { return console.log("completed"); }
     });
-    setTimeout(function () {
-        subscription.unsubscribe();
-        console.log("Unsubscribed");
-    }, 7000);
 });
