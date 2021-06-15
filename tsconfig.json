@@ -7,6 +7,6 @@
     "moduleResolution": "node",
     "outFile": "src/index.js"
   },
-  "include": ["src/**/*", "timer.ts"],
+  "include": ["src/**/*", "forkJoin.ts"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }

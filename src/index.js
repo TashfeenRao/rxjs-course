@@ -1,43 +1,14 @@
-define("timer", ["require", "exports", "rxjs"], function (require, exports, rxjs_1) {
+define("forkJoin", ["require", "exports", "rxjs", "rxjs/ajax"], function (require, exports, rxjs_1, ajax_1) {
     "use strict";
     exports.__esModule = true;
-    var sub2 = rxjs_1.timer(2000).subscribe({});
-    setTimeout(function () {
-        sub2.unsubscribe();
-    }, 1000);
-    var ourTimer$ = new rxjs_1.Observable(function (subscriber) {
-        var timeId = setTimeout(function () {
-            console.log("memory leak?");
-            subscriber.next(0);
-            subscriber.complete();
-        }, 2000);
-        return function () {
-            clearTimeout(timeId);
-        };
+    var randomNames$ = ajax_1.ajax("https://random-data-api.com/api/name/random_name");
+    var randomNation$ = ajax_1.ajax("https://random-data-api.com/api/nation/random_nation");
+    var randomFood$ = ajax_1.ajax("https://random-data-api.com/api/food/random_food");
+    randomNames$.subscribe(function (value) { return console.log(value.response.first_name); });
+    randomNation$.subscribe(function (value) { return console.log(value.response.capital); });
+    randomFood$.subscribe(function (value) { return console.log(value.response.dish); });
+    rxjs_1.forkJoin([randomNames$, randomNation$, randomFood$]).subscribe(function (_a) {
+        var ajxName = _a[0], ajaxCapital = _a[1], ajaxFood = _a[2];
+        console.log(ajxName.response.first_name + " is live in " + ajaxCapital.response.capital + " and love to eat " + ajaxFood.response.dish + ".");
     });
-    var sub1 = ourTimer$.subscribe({});
-    setTimeout(function () {
-        sub1.unsubscribe();
-    }, 1000);
-    var sub3 = rxjs_1.interval(1000).subscribe({});
-    setTimeout(function () {
-        sub3.unsubscribe();
-    }, 5000);
-    var ourInterval$ = new rxjs_1.Observable(function (subscriber) {
-        var counter = 0;
-        var timeId = setInterval(function () {
-            console.log("memory leak?");
-            subscriber.next(++counter);
-        }, 1000);
-        return function () {
-            clearInterval(timeId);
-        };
-    });
-    var sub4 = ourInterval$.subscribe({
-        next: function (value) { return console.log(value); }
-    });
-    setTimeout(function () {
-        sub4.unsubscribe();
-        console.log("unsubscribed");
-    }, 5000);
 });
