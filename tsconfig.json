@@ -7,6 +7,6 @@
     "moduleResolution": "node",
     "outFile": "src/index.js"
   },
-  "include": ["src/**/*", "lesson5.ts"],
+  "include": ["src/**/*", "timer.ts"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }
