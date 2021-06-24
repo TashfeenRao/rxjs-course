@@ -4,11 +4,26 @@ define("forkJoin", ["require", "exports", "rxjs", "rxjs/ajax"], function (requir
     var randomNames$ = ajax_1.ajax("https://random-data-api.com/api/name/random_name");
     var randomNation$ = ajax_1.ajax("https://random-data-api.com/api/nation/random_nation");
     var randomFood$ = ajax_1.ajax("https://random-data-api.com/api/food/random_food");
-    randomNames$.subscribe(function (value) { return console.log(value.response.first_name); });
-    randomNation$.subscribe(function (value) { return console.log(value.response.capital); });
-    randomFood$.subscribe(function (value) { return console.log(value.response.dish); });
-    rxjs_1.forkJoin([randomNames$, randomNation$, randomFood$]).subscribe(function (_a) {
-        var ajxName = _a[0], ajaxCapital = _a[1], ajaxFood = _a[2];
-        console.log(ajxName.response.first_name + " is live in " + ajaxCapital.response.capital + " and love to eat " + ajaxFood.response.dish + ".");
+    var a$ = new rxjs_1.Observable(function (subscriber) {
+        setTimeout(function () {
+            subscriber.next("a");
+            subscriber.complete();
+        }, 5000);
+        return function () {
+            console.log("a terminated");
+        };
+    });
+    var b$ = new rxjs_1.Observable(function (subscriber) {
+        setTimeout(function () {
+            subscriber.error("some thing wrong happened");
+        }, 3000);
+        return function () {
+            console.log("b terminated");
+        };
+    });
+    rxjs_1.forkJoin([a$, b$]).subscribe({
+        next: function (value) { return console.log(value); },
+        error: function (error) { return console.log(error); },
+        complete: function () { return console.log("completed"); }
     });
 });

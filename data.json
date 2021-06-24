@@ -1,0 +1,1218 @@
+{
+  "punjab": {
+    "zone": {
+      "MUZAFFAR GARH": {
+        "territory": {
+          "ALIPUR": {
+            "tm": {
+              "phone": "03207886619",
+              "username": "Muhammad Arif Baig"
+            }
+          },
+          "JATOI": {
+            "tm": {
+              "phone": "03011145728",
+              "username": "Noman Ahsan"
+            }
+          },
+          "M.garh": {
+            "tm": {
+              "phone": "03238114242",
+              "username": "Muhammad Imam Bukhsh Bhutta"
+            }
+          },
+          "KOT ADU": {
+            "tm": {
+              "phone": "03200500173",
+              "username": "Waseem Akram   "
+            }
+          }
+        },
+        "zm": {
+          "phone": "03200880052",
+          "username": "Ghulam Rasool Shahzad"
+        }
+      },
+      "ALI PUR": {
+        "territory": {
+          "ALI PUR-1": {
+            "tm": {
+              "phone": "03214236766",
+              "username": "Muhammad Akmal Tehseen"
+            }
+          },
+          "ALI PUR-2": {
+            "tm": {
+              "phone": "03207886619",
+              "username": "Muhammad Arif Baig"
+            }
+          },
+          "ALI PUR-3": {
+            "tm": {
+              "phone": "03011105318",
+              "username": "Sarfraz Sabir"
+            }
+          },
+          "JATOI-1": {
+            "tm": {
+              "phone": "03011145728",
+              "username": "Noman Ahsan"
+            }
+          },
+          "JATOI-2": {
+            "tm": {
+              "phone": "03060385706",
+              "username": "Muhammad Asif Ali Raza"
+            }
+          },
+          "MUZAFFAR GARH": {
+            "tm": {
+              "phone": "03238114242",
+              "username": "Muhammad Imam Bukhsh Bhutta"
+            }
+          }
+        },
+        "zm": {
+          "phone": "03200880052",
+          "username": "Ghulam Rasool Shahzad"
+        }
+      },
+      "BAHAWALPUR": {
+        "territory": {
+          "AHMADPUR EAST": {
+            "tm": {
+              "phone": "03200880048",
+              "username": "Muhammad Nadeem"
+            }
+          },
+          "BAHAWALPUR CITY": {
+            "tm": {
+              "phone": "03200500148",
+              "username": "Naeem Akram"
+            }
+          },
+          "DUNYA PUR": {
+            "tm": {
+              "phone": "03400009204",
+              "username": "Abdul Hameed"
+            }
+          },
+          "KEHROR PACCA": {
+            "tm": {
+              "phone": "03214288719",
+              "username": "Muhammad Shaukat Ali"
+            }
+          },
+          "LODHARAN-1": {
+            "tm": {
+              "phone": "03200500160",
+              "username": "Muhammad Tahir"
+            }
+          },
+          "LODHARAN-2": {
+            "tm": {
+              "phone": "03400009203",
+              "username": "Mobashir Ahmad Khan"
+            }
+          }
+        },
+        "zm": {
+          "phone": "03216021736",
+          "username": "Muhammad Tahir Malik"
+        }
+      },
+      "LODHRAN": {
+        "territory": {
+          "DUNYA PUR": {
+            "tm": {
+              "phone": "03400009204",
+              "username": "Abdul Hameed"
+            }
+          },
+          "KEHROR PACCA": {
+            "tm": {
+              "phone": "03214288719",
+              "username": "Muhammad Shaukat Ali"
+            }
+          }
+        },
+        "zm": {
+          "phone": "03200500160",
+          "username": "Muhammad Tahir"
+        }
+      },
+      "D G KHAN": {
+        "territory": {
+          "D G khan": {
+            "tm": {
+              "phone": "03206861414",
+              "username": "Asif Bashir"
+            }
+          },
+          "Kot chutta": {
+            "tm": {
+              "phone": "03206861414",
+              "username": "Asif Bashir"
+            }
+          },
+          "Taunsa shareef": {
+            "tm": {
+              "phone": "03206861414",
+              "username": "Asif Bashir"
+            }
+          },
+          "Taunsa": {
+            "tm": {
+              "phone": "03206861414",
+              "username": "Asif Bashir"
+            }
+          },
+          "Tribal area": {
+            "tm": {
+              "phone": "03206861414",
+              "username": "Asif Bashir"
+            }
+          },
+          "JAM PUR-1": {
+            "tm": {
+              "phone": "03217439322",
+              "username": "Faizan Ali Haider"
+            }
+          },
+          "JAM PUR-2": {
+            "tm": {
+              "phone": "03207884646",
+              "username": "Muhammad Abubakar Usmani   "
+            }
+          },
+          "KOT ADU": {
+            "tm": {
+              "phone": "03200500173",
+              "username": "Waseem Akram   "
+            }
+          }
+        },
+        "zm": {
+          "phone": "03212440388",
+          "username": "Farooq Ahmed"
+        }
+      },
+      "FAISALABAD": {
+        "territory": {
+          "FAISALABAD": {
+            "tm": {
+              "phone": "03200500176",
+              "username": "Muhammad Usman"
+            }
+          },
+          "Tandlianwala": {
+            "tm": {
+              "phone": "03200500176",
+              "username": "Muhammad Usman"
+            }
+          },
+          "Chak jhumra": {
+            "tm": {
+              "phone": "03200500176",
+              "username": "Muhammad Usman"
+            }
+          },
+          "Jaranwala": {
+            "tm": {
+              "phone": "03200500176",
+              "username": "Muhammad Usman"
+            }
+          },
+          "Samundri": {
+            "tm": {
+              "phone": "03200500176",
+              "username": "Muhammad Usman"
+            }
+          },
+          "JHANG": {
+            "tm": {
+              "phone": "03080720814",
+              "username": "Syed Zain Abbas Shah"
+            }
+          },
+          "KAMALIA": {
+            "tm": {
+              "phone": "03216019046",
+              "username": "Mudassar Aman"
+            }
+          },
+          "SHORKOT": {
+            "tm": {
+              "phone": "03200500214",
+              "username": "Amir Nawaz"
+            }
+          },
+          "TT SING": {
+            "tm": {
+              "phone": "03207883838",
+              "username": "Usman Farooq"
+            }
+          }
+        },
+        "zm": {
+          "phone": "vacant",
+          "username": "vacant"
+        }
+      },
+      "JHANG": {
+        "territory": {
+          "18 hazari": {
+            "tm": {
+              "phone": "03200500176",
+              "username": "Muhammad Usman"
+            }
+          },
+          "A.p.sial": {
+            "tm": {
+              "phone": "03216019046",
+              "username": "Mudassar Aman"
+            }
+          },
+          "SHORKOT": {
+            "tm": {
+              "phone": "03200500214",
+              "username": "Amir Nawaz"
+            }
+          },
+          "TT SING": {
+            "tm": {
+              "phone": "03207883838",
+              "username": "Usman Farooq"
+            }
+          }
+        },
+        "zm": {
+          "phone": "vacant",
+          "username": "vacant"
+        }
+      },
+      "Toba tek singh": {
+        "territory": {
+          "Gojra": {
+            "tm": {
+              "phone": "03200500176",
+              "username": "Muhammad Usman"
+            }
+          },
+          "Kamalia": {
+            "tm": {
+              "phone": "03216019046",
+              "username": "Mudassar Aman"
+            }
+          },
+          "Pirmahal": {
+            "tm": {
+              "phone": "03207883838",
+              "username": "Usman Farooq"
+            }
+          }
+        },
+        "zm": {
+          "phone": "vacant",
+          "username": "vacant"
+        }
+      },
+      "HAFIZABAD": {
+        "territory": {
+          "Pindi bhattian": {
+            "tm": {
+              "phone": "03214612343",
+              "username": "Sher Ajmal Khan"
+            }
+          }
+        },
+        "zm": {
+          "phone": "03248006161",
+          "username": "Shehzad Ahmad"
+        }
+      },
+      "NANKANA": {
+        "territory": {
+          "Nankana sahib": {
+            "tm": {
+              "phone": "03238114949",
+              "username": "Ahmad Raza Tahir"
+            }
+          },
+          "Sangla hill": {
+            "tm": {
+              "phone": "03238114949",
+              "username": "Ahmad Raza Tahir"
+            }
+          },
+          "Shahkot": {
+            "tm": {
+              "phone": "03238114949",
+              "username": "Ahmad Raza Tahir"
+            }
+          }
+        },
+        "zm": {
+          "phone": "03028653723",
+          "username": "Ghazanfar Ali"
+        }
+      },
+      "GUJRANWALA": {
+        "territory": {
+          "GUJRANWALA saddar": {
+            "tm": {
+              "phone": "03054004477",
+              "username": "Abdul Waheed"
+            }
+          },
+          "GUJRANWALA": {
+            "tm": {
+              "phone": "03054004477",
+              "username": "Abdul Waheed"
+            }
+          },
+          "HAFIZABAD": {
+            "tm": {
+              "phone": "03217469117",
+              "username": "Nawazish Ali"
+            }
+          },
+          "Kamoke": {
+            "tm": {
+              "phone": "03217469117",
+              "username": "Nawazish Ali"
+            }
+          },
+          "JALAL PUR BHATTIAN": {
+            "tm": {
+              "phone": "03214612343",
+              "username": "Sher Ajmal Khan"
+            }
+          },
+          "Noshera virkan": {
+            "tm": {
+              "phone": "03214612343",
+              "username": "Sher Ajmal Khan"
+            }
+          },
+          "NANKANA": {
+            "tm": {
+              "phone": "03028653723",
+              "username": "Ghazanfar Ali"
+            }
+          },
+          "SHEIKHUPURA": {
+            "tm": {
+              "phone": "03238114949",
+              "username": "Ahmad Raza Tahir"
+            }
+          },
+          "WAZIRABAD": {
+            "tm": {
+              "phone": "03028278432",
+              "username": "Moazzum Abbas"
+            }
+          }
+        },
+        "zm": {
+          "phone": "03248006161",
+          "username": "Shehzad Ahmad"
+        }
+      },
+      "SHEIKHUPURA": {
+        "territory": {
+          "SHEIKHUPURA": {
+            "tm": {
+              "phone": "03238114949",
+              "username": "Ahmad Raza Tahir"
+            }
+          }
+        },
+        "zm": {
+          "phone": "03238114949",
+          "username": "Ahmad Raza Tahir"
+        }
+      },
+      "LAHORE": {
+        "territory": {
+          "KASUR": {
+            "tm": {
+              "phone": "03214571822",
+              "username": "Shahzad Ahmad"
+            }
+          },
+          "Cantt": {
+            "tm": {
+              "phone": "03061565696",
+              "username": "Muhammad Ahtsham Azam"
+            }
+          },
+          "Model town": {
+            "tm": {
+              "phone": "03061565696",
+              "username": "Muhammad Ahtsham Azam"
+            }
+          },
+          "Theeng Mor": {
+            "tm": {
+              "phone": "03061565696",
+              "username": "Muhammad Ahtsham Azam"
+            }
+          },
+          "Shalimar": {
+            "tm": {
+              "phone": "03061565696",
+              "username": "Muhammad Ahtsham Azam"
+            }
+          },
+          "LAHORE": {
+            "tm": {
+              "phone": "03061565696",
+              "username": "Muhammad Ahtsham Azam"
+            }
+          },
+          "PATTOKI": {
+            "tm": {
+              "phone": "03200500135",
+              "username": "Muhammad Imran Zafar Ullah"
+            }
+          },
+          "SHARAQ PUR": {
+            "tm": {
+              "phone": "03200500199",
+              "username": "Ahmad Mukhtar"
+            }
+          }
+        },
+        "zm": {
+          "phone": "vacant",
+          "username": "vacant"
+        }
+      },
+      "LAYYAH": {
+        "territory": {
+          "BAKHAR": {
+            "tm": {
+              "phone": "03216039861",
+              "username": "Muhammad Azhar"
+            }
+          },
+          "Choubara": {
+            "tm": {
+              "phone": "03216039861",
+              "username": "Muhammad Azhar"
+            }
+          },
+          "Karor": {
+            "tm": {
+              "phone": "03216039861",
+              "username": "Muhammad Azhar"
+            }
+          },
+          "D.I Khan": {
+            "tm": {
+              "phone": "03080721059",
+              "username": "Muhammad Saif Ur Rehman"
+            }
+          },
+          "FATEH PUR": {
+            "tm": {
+              "phone": "03207557551",
+              "username": "Shahbaz Ahmad"
+            }
+          },
+          "LAYYAH": {
+            "tm": {
+              "phone": "03214687689",
+              "username": "Rana Muhammad Khalid Khan"
+            }
+          },
+          "MIANWALI": {
+            "tm": {
+              "phone": "03200500133",
+              "username": "Muhammad Farooq"
+            }
+          },
+          "QUAIDABAD": {
+            "tm": {
+              "phone": "03088878547",
+              "username": "Nisar Ahmed Khan"
+            }
+          }
+        },
+        "zm": {
+          "phone": "03212440362",
+          "username": "Muhammad Hussain"
+        }
+      },
+      "MULTAN": {
+        "territory": {
+          "JALAL PUR": {
+            "tm": {
+              "phone": "03200500166",
+              "username": "Abdul Rehman"
+            }
+          },
+          "JALAL PUR pirwala": {
+            "tm": {
+              "phone": "03200500166",
+              "username": "Abdul Rehman"
+            }
+          },
+          "KHANEWAL": {
+            "tm": {
+              "phone": "03206861212",
+              "username": "Muhammad Waseem Razaq"
+            }
+          },
+          "MULTAN saddar": {
+            "tm": {
+              "phone": "03200880030",
+              "username": "Muhammad Amjad Shahzad"
+            }
+          },
+          "MULTAN city": {
+            "tm": {
+              "phone": "03200880030",
+              "username": "Muhammad Amjad Shahzad"
+            }
+          },
+          "SHUJABAD": {
+            "tm": {
+              "phone": "03214267568",
+              "username": "Muhammad Arshad"
+            }
+          },
+          "TIBBA SULTAN PUR": {
+            "tm": {
+              "phone": "03209880808",
+              "username": "Zubair Khan"
+            }
+          }
+        },
+        "zm": {
+          "phone": "vacant",
+          "username": "vacant"
+        }
+      },
+      "PAKPATTAN": {
+        "territory": {
+          "ARIFWALA": {
+            "tm": {
+              "phone": "03212440358",
+              "username": "Muhammad Zeeshan"
+            }
+          },
+          "DEPALPUR": {
+            "tm": {
+              "phone": "03217469128",
+              "username": "Muhammad Irshad Nadeem"
+            }
+          },
+          "HAVELI LAKHA": {
+            "tm": {
+              "phone": "03080720748",
+              "username": "Muhammad Shahzad Hussain"
+            }
+          },
+          "HUJRA": {
+            "tm": {
+              "phone": "03207886609",
+              "username": "Muhammad Rashid Bashir"
+            }
+          },
+          "PAKPATTAN": {
+            "tm": {
+              "phone": "03216019017",
+              "username": "Riaz Ahmad"
+            }
+          },
+          "PAKPATTAN-1": {
+            "tm": {
+              "phone": "03216019017",
+              "username": "Riaz Ahmad"
+            }
+          },
+          "PAKPATTAN-2": {
+            "tm": {
+              "phone": "03217016483",
+              "username": "Muhammad Abbas"
+            }
+          }
+        },
+        "zm": {
+          "phone": "03214163721",
+          "username": "Fakhar Ahmad  Bodla"
+        }
+      },
+      "RAHIM YAR KHAN": {
+        "territory": {
+          "Khanpur": {
+            "tm": {
+              "phone": "03216021730",
+              "username": "Muhammad Tariq"
+            }
+          },
+          "Khan bela": {
+            "tm": {
+              "phone": "03216021730",
+              "username": "Muhammad Tariq"
+            }
+          },
+          "Liaquatpur": {
+            "tm": {
+              "phone": "03214318527",
+              "username": "Muhammad Asif Rahim"
+            }
+          },
+          "Liaquatpur cholistan": {
+            "tm": {
+              "phone": "03214318527",
+              "username": "Muhammad Asif Rahim"
+            }
+          },
+          "R.Y.Khan 1": {
+            "tm": {
+              "phone": "03200500104",
+              "username": "Muhammad Kamran"
+            }
+          },
+          "R.Y.Khan 2": {
+            "tm": {
+              "phone": "03011009863",
+              "username": "Saleem Akhtar"
+            }
+          },
+          "SADIQABAD": {
+            "tm": {
+              "phone": "03217016475",
+              "username": "Masab Hameed"
+            }
+          },
+          "ZAHIR PIR": {
+            "tm": {
+              "phone": "03209885656",
+              "username": "Shahbaz khalid"
+            }
+          }
+        },
+        "zm": {
+          "phone": "03214231995",
+          "username": "Abdul Wahid"
+        }
+      },
+      "RAJANPUR": {
+        "territory": {
+          "FAZAL PUR": {
+            "tm": {
+              "phone": "03212440337",
+              "username": "Khurram Shehzad"
+            }
+          },
+          "Jampur": {
+            "tm": {
+              "phone": "03212440337",
+              "username": "Khurram Shehzad"
+            }
+          },
+          "KOT MITHAN": {
+            "tm": {
+              "phone": "03212440334",
+              "username": "Sheraz Ali Khan"
+            }
+          },
+          "Muhammed Pur-1": {
+            "tm": {
+              "phone": "03217439433",
+              "username": "Ghulam Murtaza"
+            }
+          },
+          "Muhammed Pur-2": {
+            "tm": {
+              "phone": "03206861919",
+              "username": "Muhammad Asif Abbas"
+            }
+          },
+          "Rajan Pur": {
+            "tm": {
+              "phone": "03218449919",
+              "username": "Burhan Ahmad"
+            }
+          },
+          "ROJHAN": {
+            "tm": {
+              "phone": "03028278430",
+              "username": "Rao Ghulam Mustafa"
+            }
+          }
+        },
+        "zm": {
+          "phone": "03217427615",
+          "username": "Sher Baz"
+        }
+      },
+      "SAHIWAL": {
+        "territory": {
+          "CHICHAWATNI": {
+            "tm": {
+              "phone": "03217461700",
+              "username": "Muhammad Mujahid Sharif"
+            }
+          },
+          "HARAPPA": {
+            "tm": {
+              "phone": "03207883939",
+              "username": "Arshad Ali"
+            }
+          },
+          "MIAN CHANNU": {
+            "tm": {
+              "phone": "03200500106",
+              "username": "Asfar Ali"
+            }
+          },
+          "OKARA": {
+            "tm": {
+              "phone": "03216019086",
+              "username": "Muhammad Usama Hassan"
+            }
+          },
+          "SAHIWAL": {
+            "tm": {
+              "phone": "03200500164",
+              "username": "Muhammad Yasin"
+            }
+          }
+        },
+        "zm": {
+          "phone": "03217439389",
+          "username": "Muhammad Bilal Javed"
+        }
+      },
+      "SARGODHA": {
+        "territory": {
+          "BHALWAL": {
+            "tm": {
+              "phone": "03028653716",
+              "username": "Muhammad Shahab Ud Din"
+            }
+          },
+          "Bhira": {
+            "tm": {
+              "phone": "03028653716",
+              "username": "Muhammad Shahab Ud Din"
+            }
+          },
+          "Chiniot-1": {
+            "tm": {
+              "phone": "03088877283",
+              "username": "Muhammad Ahsan Khalid"
+            }
+          },
+          "Chiniot-2": {
+            "tm": {
+              "phone": "03011145729",
+              "username": "Muhammad Adeel Razzaq"
+            }
+          },
+          "KHUSHAB": {
+            "tm": {
+              "phone": "03011145727",
+              "username": "Muhammad Kashif Sohail"
+            }
+          },
+          "SAHIWAL": {
+            "tm": {
+              "phone": "03200500164",
+              "username": "Muhammad Yasin"
+            }
+          },
+          "Kotmoman": {
+            "tm": {
+              "phone": "03200500128",
+              "username": "Mohsin Raza"
+            }
+          },
+          "Sillanwali": {
+            "tm": {
+              "phone": "03200500128",
+              "username": "Mohsin Raza"
+            }
+          },
+          "Shahpur": {
+            "tm": {
+              "phone": "03200500128",
+              "username": "Mohsin Raza"
+            }
+          },
+          "SARGODHA": {
+            "tm": {
+              "phone": "03216019036",
+              "username": "Muhammad Saqib Shah"
+            }
+          }
+        },
+        "zm": {
+          "phone": "03200500177",
+          "username": "Syed Imran Hyder"
+        }
+      },
+      "SIALKOT": {
+        "territory": {
+          "DASKA": {
+            "tm": {
+              "phone": "03212440335",
+              "username": "Hamza Khan"
+            }
+          },
+          "NARANG": {
+            "tm": {
+              "phone": "03200500159",
+              "username": "Farhan Zafar"
+            }
+          },
+          "NAROWAL": {
+            "tm": {
+              "phone": "03214228165",
+              "username": "Hafiz Sagheer Ahmad"
+            }
+          },
+          "PASRUR": {
+            "tm": {
+              "phone": "03217469113",
+              "username": "Muhammad Zubair Wahid"
+            }
+          },
+          "SIALKOT": {
+            "tm": {
+              "phone": "03216021735",
+              "username": "Muhammad Waqas"
+            }
+          }
+        },
+        "zm": {
+          "phone": "03011177894",
+          "username": "Muhammad Usman Ul Haq"
+        }
+      },
+      "VEHARI": {
+        "territory": {
+          "BAHAWALNAGAR": {
+            "tm": {
+              "phone": "03200500129",
+              "username": "Ali Nawaz"
+            }
+          },
+          "BUREWALA": {
+            "tm": {
+              "phone": "03200500167",
+              "username": "Sajjad Hussain"
+            }
+          },
+          "Chistian": {
+            "tm": {
+              "phone": "03214320403",
+              "username": "Hafiz Fiaz Ahmad"
+            }
+          },
+          "Mailsi": {
+            "tm": {
+              "phone": "03214320403",
+              "username": "Hafiz Fiaz Ahmad"
+            }
+          },
+          "FORT ABBAS": {
+            "tm": {
+              "phone": "03071484835",
+              "username": "Kamran Azeem"
+            }
+          },
+          "HASIL PUR": {
+            "tm": {
+              "phone": "vacant",
+              "username": "vacant"
+            }
+          },
+          "Minchen Abad": {
+            "tm": {
+              "phone": "03214326548",
+              "username": "Ghulam Mustafa"
+            }
+          },
+          "VEHARI": {
+            "tm": {
+              "phone": "03200500233",
+              "username": "Fazan Ahmad"
+            }
+          }
+        },
+        "zm": {
+          "phone": "03212440373",
+          "username": "Syed Imran Ali Shah Gillani"
+        }
+      }
+    }
+  },
+  "sindh": {
+    "zone": {
+      "DHARKI": {
+        "territory": {
+          "DHARKI": {
+            "tm": {
+              "phone": "03214219272",
+              "username": "Mian Dad "
+            }
+          },
+          "GHOTKI": {
+            "tm": {
+              "phone": "03214329236",
+              "username": "Nisar Ahmed"
+            }
+          },
+          "JARWAR": {
+            "tm": {
+              "phone": "03216015141",
+              "username": "Ghulam Mustafa"
+            }
+          },
+          "KHANPUR MAHAR": {
+            "tm": {
+              "phone": "03216021744",
+              "username": "Ghulam Mustafa"
+            }
+          },
+          "UBARO": {
+            "tm": {
+              "phone": "vacant",
+              "username": "vacant"
+            }
+          },
+          "YAROO LOUND": {
+            "tm": {
+              "phone": "03214452289",
+              "username": "Yar Muhammad Soomro"
+            }
+          }
+        },
+        "zm": {
+          "phone": "03217469115",
+          "username": "Abdul Razzaq"
+        }
+      },
+      "HYDERABAD": {
+        "territory": {
+          "BADIN": {
+            "tm": {
+              "phone": "03214480316",
+              "username": "Adnan"
+            }
+          },
+          "GOLARCHI": {
+            "tm": {
+              "phone": "03214474727",
+              "username": "Kashif Raza Mir"
+            }
+          },
+          "HYDERABAD": {
+            "tm": {
+              "phone": "03200500218",
+              "username": "Muhammad Siddique "
+            }
+          },
+          "KARACHI": {
+            "tm": {
+              "phone": "03200500232",
+              "username": "Muhammad Imran Arain"
+            }
+          },
+          "MATLI (N)": {
+            "tm": {
+              "phone": "03212440363",
+              "username": "Hafeez ur Rehman "
+            }
+          }
+        },
+        "zm": {
+          "phone": "03207884545",
+          "username": "Asif Iqbal"
+        }
+      },
+      "LARKANA": {
+        "territory": {
+          "JACOBABAD": {
+            "tm": {
+              "phone": "03200880042",
+              "username": "Mahram Ali"
+            }
+          },
+          "KANDH KOT": {
+            "tm": {
+              "phone": "03071484839",
+              "username": "Abdul Shakoor"
+            }
+          },
+          "KASHMORE": {
+            "tm": {
+              "phone": "03214474626",
+              "username": "Zahid Hussain  "
+            }
+          },
+          "LARKANA": {
+            "tm": {
+              "phone": "03207884141",
+              "username": "Rafique Ahmed"
+            }
+          },
+          "NASIRABAD": {
+            "tm": {
+              "phone": "03088568762",
+              "username": "Riaz Hussain"
+            }
+          },
+          "SHEHDADKOT": {
+            "tm": {
+              "phone": "03207884040",
+              "username": "Irfan Ullah"
+            }
+          },
+          "USTA MUHAMMED": {
+            "tm": {
+              "phone": "03011010039",
+              "username": "Akbar Ali"
+            }
+          }
+        },
+        "zm": {
+          "phone": "03011009862",
+          "username": "Amir Bux"
+        }
+      },
+      "NAWABSHAH": {
+        "territory": {
+          "MIRPURKHAS": {
+            "tm": {
+              "phone": "03214015345",
+              "username": "Muhammad Rameez"
+            }
+          },
+          "NAWABSHAH": {
+            "tm": {
+              "phone": "03207887373",
+              "username": "Asghar Ali Nukrach"
+            }
+          },
+          "SAKRAND": {
+            "tm": {
+              "phone": "03216039865",
+              "username": "Siraj Ahmed Keerio"
+            }
+          },
+          "TANDO ALLAH YAR": {
+            "tm": {
+              "phone": "03200880024",
+              "username": "Asadullah Khan"
+            }
+          },
+          "UMER KOT": {
+            "tm": {
+              "phone": "03200500234",
+              "username": "Asif Ali"
+            }
+          }
+        },
+        "zm": {
+          "phone": "vacant",
+          "username": "vacant"
+        }
+      },
+      "SHAHDAD PUR": {
+        "territory": {
+          "HALA": {
+            "tm": {
+              "phone": "03216019049",
+              "username": "Inayat Hussain Behan"
+            }
+          },
+          "SANGHAR": {
+            "tm": {
+              "phone": "03216015188",
+              "username": "Hafeez Ahmad"
+            }
+          },
+          "Shahdadpur-1": {
+            "tm": {
+              "phone": "03207887676",
+              "username": "Roshan Ali"
+            }
+          },
+          "Shahdadpur-2": {
+            "tm": {
+              "phone": "vacant",
+              "username": "vacant"
+            }
+          },
+          "TANDO ADAM": {
+            "tm": {
+              "phone": "vacant",
+              "username": "vacant"
+            }
+          }
+        },
+        "zm": {
+          "phone": "vacant",
+          "username": "vacant"
+        }
+      },
+      "SUKKAR": {
+        "territory": {
+          "CHUNDKO": {
+            "tm": {
+              "phone": "03207887474",
+              "username": "Toufeeque Ahmed"
+            }
+          },
+          "DADU": {
+            "tm": {
+              "phone": "03209885959",
+              "username": "Aashir Azeem"
+            }
+          },
+          "KUMBH": {
+            "tm": {
+              "phone": "03028653714",
+              "username": "Shahnawaz Soomro"
+            }
+          },
+          "MEHRABPUR": {
+            "tm": {
+              "phone": "03214536076",
+              "username": "Wazir Hussain"
+            }
+          },
+          "NOSHERO FEROZ": {
+            "tm": {
+              "phone": "03207884242",
+              "username": "Shahbaz Dino"
+            }
+          },
+          "PANU AQIL": {
+            "tm": {
+              "phone": "03214475221",
+              "username": "Arif Ali"
+            }
+          },
+          "ROHRI": {
+            "tm": {
+              "phone": "03217469146",
+              "username": "Muhammad Nawaz Palh"
+            }
+          }
+        },
+        "zm": {
+          "phone": "03214768345",
+          "username": "Adil"
+        }
+      }
+    }
+  }
+}

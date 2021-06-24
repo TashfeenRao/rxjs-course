@@ -7,6 +7,6 @@
     "moduleResolution": "node",
     "outFile": "src/index.js"
   },
-  "include": ["src/**/*", "forkJoin.ts"],
+  "include": ["src/**/*", "forkjoin.ts"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }
